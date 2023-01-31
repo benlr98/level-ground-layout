@@ -25,6 +25,10 @@ h2 {
   text-align: center;
 }
 
+h4 {
+  margin: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -129,9 +133,24 @@ section p {
 footer {
   color: white;
   background-color: #161f2a;
+  padding: 20px;
 }
 
 footer .flex {
   display: flex;
   justify-content: space-between;
+}
+
+.socials ul {
+  margin: 15px 0;
+}
+
+footer span {
+  color: #dbdfe2;
+  display: block;
+  margin: 10px 0;
+}
+
+.logo {
+  padding-right: 92px
 }
